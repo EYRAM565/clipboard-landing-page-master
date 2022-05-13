@@ -368,8 +368,15 @@ p {
   }
   .middle_image {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    margin-left: 9rem;
+    margin-top: 2rem;
+  }
+  .middle_image .list {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 3rem;
   }
   .middle_image .foo {
     margin-bottom: 2rem;
@@ -378,7 +385,7 @@ p {
   .middle_image img {
     display: block;
     height: auto;
-    width: 35%;
+    width: 40%;
   }
   .acc_clip {
     display: flex;
@@ -405,6 +412,10 @@ p {
     margin: auto;
     width: 50%;
   }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
   .wrapper .supwrkflw {
     display: flex;
     flex-direction: column;
@@ -422,14 +433,16 @@ p {
   .wrapper .bpp {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
     padding: 3rem;
   }
   .wrapper .bpp .bpp1 {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    padding: 1rem;
   }
   .wrapper .bpp .bpp1 img {
     padding: 2rem;
@@ -443,10 +456,10 @@ p {
   }
   .icons {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 3rem;
-    align-items: center;
-    padding: 5rem;
+    gap: 4rem;
+    padding: 3rem 0 5rem 0;
   }
   .clipboard {
     display: flex;
